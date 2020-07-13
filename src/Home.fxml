@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="rootPane" prefHeight="768.0" prefWidth="1366.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="HomeController">
+	<children>
+		<GridPane hgap="10.0" prefHeight="488.0" prefWidth="868.0" vgap="10.0" AnchorPane.bottomAnchor="40.0" AnchorPane.leftAnchor="239.0" AnchorPane.rightAnchor="260.0" AnchorPane.topAnchor="240.0">
+			<columnConstraints>
+				<ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+				<ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+				<ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+			</columnConstraints>
+			<rowConstraints>
+				<RowConstraints maxHeight="284.0" minHeight="10.0" prefHeight="278.0" vgrow="SOMETIMES" />
+				<RowConstraints maxHeight="294.0" minHeight="10.0" prefHeight="294.0" vgrow="SOMETIMES" />
+			</rowConstraints>
+			<children>
+				<Button contentDisplay="TOP" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#changeScreenButtonPushed1" stylesheets="@../../com.projectCentreMed/src/application/application.css" text="Patient" />
+				<Button contentDisplay="TOP" layoutX="10.0" layoutY="10.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#changeScreenButtonPushed2" stylesheets="@../../com.projectCentreMed/src/application/application.css" text="Médecin" GridPane.columnIndex="1" />
+				<Button contentDisplay="TOP" layoutX="303.0" layoutY="10.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" stylesheets="@../../com.projectCentreMed/src/application/application.css" text="Médecin" GridPane.columnIndex="2" />
+				<Button contentDisplay="TOP" layoutX="595.0" layoutY="10.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" stylesheets="@../../com.projectCentreMed/src/application/application.css" text="Médecin" GridPane.rowIndex="1" />
+				<Button contentDisplay="TOP" layoutX="10.0" layoutY="251.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" stylesheets="@../../com.projectCentreMed/src/application/application.css" text="Médecin" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+				<Button contentDisplay="TOP" layoutX="303.0" layoutY="251.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" stylesheets="@../../com.projectCentreMed/src/application/application.css" text="Médecin" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+			</children>
+		</GridPane>
+		<Pane prefHeight="196.0" prefWidth="1366.0" style="-fx-background-color: #41c346;" stylesheets="@../../com.projectCentreMed/src/application/application.css" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+			<children>
+				<Label layoutX="110.0" layoutY="54.0" prefWidth="459.0" style="-fx-text-fill: white;" stylesheets="@../../com.projectCentreMed/src/application/application.css" text="Dashboard" textFill="WHITE">
+					<font>
+						<Font name="Lato Black" size="60.0" />
+					</font>
+				</Label>
+			</children>
+		</Pane>
+	</children>
+</AnchorPane>

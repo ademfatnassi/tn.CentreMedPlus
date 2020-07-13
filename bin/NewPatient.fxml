@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import org.controlsfx.control.textfield.*?>
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="rootPane" prefHeight="768.0"
+	prefWidth="1366.0" xmlns="http://javafx.com/javafx/8"
+	xmlns:fx="http://javafx.com/fxml/1"
+	fx:controller="NewPatientController">
+	<children>
+		<Label layoutX="90.0" layoutY="42.0" prefWidth="459.0"
+			style="-fx-text-fill: white;"
+			stylesheets="@../../com.projectCentreMed/src/application/application.css"
+			text="Patient" textFill="WHITE" AnchorPane.leftAnchor="-0.0"
+			AnchorPane.topAnchor="0.0">
+			<font>
+				<Font name="Lato Black" size="60.0" />
+			</font>
+		</Label>
+		<Pane layoutY="-2.0" prefHeight="152.0" prefWidth="1366.0"
+			style="-fx-background-color: #41c346;"
+			stylesheets="@../../com.projectCentreMed/src/application/application.css"
+			AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+			<children>
+				<Label layoutX="130.0" layoutY="36.0" prefWidth="459.0"
+					style="-fx-text-fill: white;"
+					stylesheets="@../../com.projectCentreMed/src/application/application.css"
+					text="+ New Patient" textFill="WHITE">
+					<font>
+						<Font name="Lato Black" size="60.0" />
+					</font>
+				</Label>
+			</children>
+		</Pane>
+		<Label layoutX="53.0" layoutY="263.0" style="-fx-font-size: 40;"
+			stylesheets="@style.css" text="Nom:" />
+		<Label layoutX="50.0" layoutY="368.0" style="-fx-font-size: 40;"
+			stylesheets="@style.css" text="Prenom:" />
+		<Label layoutX="56.0" layoutY="465.0" style="-fx-font-size: 40;"
+			stylesheets="@style.css" text="Âge" />
+		<Label layoutX="66.0" layoutY="561.0" style="-fx-font-size: 40;"
+			stylesheets="@style.css" text="C.I.N" />
+		<Label layoutX="733.0" layoutY="310.0"
+			style="-fx-font-size: 40;" stylesheets="@style.css" text="Genre:" />
+		<Label layoutX="735.0" layoutY="395.0"
+			style="-fx-font-size: 40;" stylesheets="@style.css" text="Adresse" />
+		<Label layoutX="736.0" layoutY="487.0"
+			style="-fx-font-size: 40;" stylesheets="@style.css" text="E-mail" />
+		<TextField fx:id="PNom" layoutX="172.0" layoutY="268.0"
+			prefHeight="39.0" prefWidth="265.0"
+			promptText="Entrer le nom de Patient" />
+		<TextField fx:id="PPrenom" layoutX="199.0" layoutY="376.0"
+			prefHeight="39.0" prefWidth="265.0"
+			promptText="Entrer le prenom de Patient" />
+	</children>
+</AnchorPane>

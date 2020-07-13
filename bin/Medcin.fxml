@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="768.0" prefWidth="1366.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/11.0.1">
+   <children>
+      <Pane layoutX="20.0" layoutY="20.0" prefHeight="196.0" prefWidth="1366.0" style="-fx-background-color: #41c346;" stylesheets="@../../com.projectCentreMed/src/application/application.css" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label layoutX="110.0" layoutY="54.0" prefWidth="459.0" style="-fx-text-fill: white;" stylesheets="@../../com.projectCentreMed/src/application/application.css" text="Médcin" textFill="WHITE">
+               <font>
+                  <Font name="Lato Black" size="60.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,13 @@
+.parent{
+	-fx-background-image: url(PolyBG.png);
+	-fx-background-position:center;
+    -fx-background-repeat:no-repeat;
+    -fx-background-size:1366.0 768.0;
+	
+}
+
+.label{
+    -fx-text-fill:#47c32b;
+    -fx-font-size: 90.0;
+    -fx-font-family: Lato;
+}
